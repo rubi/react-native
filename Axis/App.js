@@ -1,57 +1,55 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
-
-import React, { Component } from 'react';
+import {Platform} from 'react-native';
+import {Navigation} from 'react-native-navigation';
 import {
-  Platform,
-  StyleSheet,
-  Text,
-  View
-} from 'react-native';
+    registerScreens,
+    registerScreenVisibilityListener
+} from './app/screens/registerScreen';
 
-const instructions = Platform.select({
-  ios: 'Press Cmd+R to reload,\n' +
-    'Cmd+D or shake for dev menu',
-  android: 'Double tap R on your keyboard to reload,\n' +
-    'Shake or press menu button for dev menu',
-});
 
-export default class App extends Component<{}> {
-  render() {
-    return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native! Hello world ios
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit App.js
-        </Text>
-        <Text style={styles.instructions}>
-          {instructions}
-        </Text>
-      </View>
-    );
-  }
-}
+// screen related book keeping
+registerScreens();
+registerScreenVisibilityListener();
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
+const tabs = [{
+	label: 'Class',
+	screen: 'example.T1',
+	icon: require('./app/img/list.png'),
+	title: 'Schedule Class',
+}, {
+	label: 'Notifications',
+	screen: 'example.T2',
+	icon: require('./app/img/swap.png'),
+	title: 'Schedule Availability',
+}];
+
+/*if (Platform.OS === 'android') {
+	tabs.push({
+		label: 'Transitions',
+		screen: 'example.Transitions',
+		icon: require('./app/img/transform.png'),
+		title: 'Navigation Transitions',
+	});
+}*/
+
+// this will start our app
+Navigation.startTabBasedApp({
+	tabs,
+	animationType: Platform.OS === 'ios' ? 'slide-down' : 'fade',
+	tabsStyle: {
+		tabBarBackgroundColor: '#003a66',
+		tabBarButtonColor: '#ffffff',
+		tabBarSelectedButtonColor: '#ff505c',
+		tabFontFamily: 'BioRhyme-Bold',
+	},
+	appStyle: {
+		tabBarBackgroundColor: '#003a66',
+		navBarButtonColor: '#ffffff',
+		tabBarButtonColor: '#ffffff',
+		navBarTextColor: '#ffffff',
+		tabBarSelectedButtonColor: '#ff505c',
+		navigationBarColor: '#003a66',
+		navBarBackgroundColor: '#003a66',
+		statusBarColor: '#002b4c',
+		tabFontFamily: 'BioRhyme-Bold',
+	}
 });
