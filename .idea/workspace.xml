@@ -2,65 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a7761b5-5c61-4863-a74e-0b9ea88408bd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/beach.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/colors.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/delete@1x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/delete@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/edit@1x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/edit@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/gyro_header.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/heroes/bouny_hunter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/heroes/earthspirit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/heroes/oracle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/heroes/skywrath_mage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/heroes/templar_assasin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/list@1.5x.android.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/list@1x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/list@2x.android.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/list@3x.android.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/list@4x.android.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/masonry/158xD4xbeh.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/masonry/37r6Cqp1B8.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/masonry/5Gi8kova3k.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/masonry/61mpAVRV73.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/masonry/A4g0lZ33Z8.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/masonry/AdGXmD1CH6.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/masonry/Cfw87359UT.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/masonry/N30E32431C.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/masonry/a848dHxA4e.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/masonry/j51Pva1P8L.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/masonry/kVN0FryOZk.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/masonry/pqgylg80SD.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/masonry/rVOcz7rd0z.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/masonry/ri90ueind7.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/masonry/v8KLi2f0Tr.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/masonry/xU42hx19BB.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/navicon_add@2x.android.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/navicon_add@2x.ios.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/navicon_add@3x.android.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/navicon_edit@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/navicon_menu@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/one@1.5x.android.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/one@1x.android.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/one@2x.ios.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/one@3x.android.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/one@4x.android.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/one_selected@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/swap@1x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/swap@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/three@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/three_selected@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/transform@1x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/transform@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/two@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/app/img/two_selected@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Axis/index.ios.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Axis/index.js" afterPath="$PROJECT_DIR$/Axis/index.android.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Axis/App.js" afterPath="$PROJECT_DIR$/Axis/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Axis/android/app/build.gradle" afterPath="$PROJECT_DIR$/Axis/android/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Axis/ios/Axis.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Axis/ios/Axis.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Axis/ios/Axis/AppDelegate.m" afterPath="$PROJECT_DIR$/Axis/ios/Axis/AppDelegate.m" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -78,11 +20,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="t1.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="t1.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Axis/app/components/t1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="33" />
+            <state relative-caret-position="532">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
                 <element signature="e#89#130#0" expanded="true" />
               </folding>
@@ -93,8 +35,32 @@
       <file leaf-file-name="t2.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Axis/app/components/t2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+            <state relative-caret-position="152">
+              <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+              <folding>
+                <element signature="e#89#130#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Axis/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="57" column="34" lean-forward="false" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registerScreen.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Axis/app/screens/registerScreen.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="34" lean-forward="true" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -116,10 +82,10 @@
         <option value="$PROJECT_DIR$/Axis/.gitignore" />
         <option value="$PROJECT_DIR$/Axis/app/screens/registerScreen.js" />
         <option value="$PROJECT_DIR$/Axis/app/components/menu.js" />
-        <option value="$PROJECT_DIR$/Axis/App.js" />
         <option value="$PROJECT_DIR$/Axis/android/app/build.gradle" />
         <option value="$PROJECT_DIR$/Axis/app/components/t1.js" />
         <option value="$PROJECT_DIR$/Axis/app/components/t2.js" />
+        <option value="$PROJECT_DIR$/Axis/App.js" />
       </list>
     </option>
   </component>
@@ -139,7 +105,7 @@
     <handled-path value="$PROJECT_DIR$/Axis/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="25" />
+    <option name="x" value="4" />
     <option name="y" value="23" />
     <option name="width" value="1395" />
     <option name="height" value="740" />
@@ -199,7 +165,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -296,15 +262,15 @@
       <option name="presentableId" value="Default" />
       <updated>1509520950187</updated>
       <workItem from="1509520952604" duration="4183000" />
-      <workItem from="1509592023976" duration="3877000" />
+      <workItem from="1509592023976" duration="8222000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8060000" />
+    <option name="totallyTimeSpent" value="12405000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="25" y="23" width="1395" height="740" extended-state="0" />
+    <frame x="4" y="23" width="1395" height="740" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2569141" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -377,7 +343,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -385,9 +353,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#77#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -396,7 +362,7 @@
         <state relative-caret-position="38">
           <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
           <folding>
-            <element signature="e#0#26#0" expanded="false" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -417,7 +383,7 @@
           <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
           <folding>
             <element signature="n#!!doc" expanded="false" />
-            <element signature="e#89#130#0" expanded="false" />
+            <element signature="e#89#130#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -427,7 +393,7 @@
         <state relative-caret-position="19">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#0#43#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -519,26 +485,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Axis/app/components/menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Axis/app/screens/registerScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#77#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Axis/android/app/src/main/java/com/axis/MainApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -555,48 +501,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Axis/App.js">
+    <entry file="file://$PROJECT_DIR$/Axis/app/components/t1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="532">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="e#89#130#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Axis/app/components/t2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Axis/index.ios.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="152">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#89#130#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Axis/index.android.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
+        <state relative-caret-position="76">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Axis/index.ios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Axis/app/components/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-342">
+          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Axis/app/components/t1.js">
+    <entry file="file://$PROJECT_DIR$/Axis/app/screens/registerScreen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="33" />
+        <state relative-caret-position="38">
+          <caret line="2" column="34" lean-forward="true" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Axis/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="57" column="34" lean-forward="false" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
           <folding>
-            <element signature="e#89#130#0" expanded="true" />
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
