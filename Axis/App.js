@@ -45,7 +45,7 @@ const tabs = [
 	},
 	{
 		label: 'Notifications',
-		screen: 'example.T2',
+		screen: 'example.T3',
 		icon: require('./app/img/transform.png'),
 		title: 'Schedule Notifications',
 		iconInsets: { // add this to change icon position (optional, iOS only).

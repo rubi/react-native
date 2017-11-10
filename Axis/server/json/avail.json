@@ -1,0 +1,197 @@
+{
+  "status": 200,
+  "items": [
+    {
+      "classId": 1862821,
+      "serviceTypeCode": "GL",
+      "classStatusCode": "Assigned",
+      "dataStore": "us1",
+      "startTime": "2017-11-04T11:00:00Z",
+      "endTime": "2017-11-04T12:00:00Z"
+    },
+    {
+      "classId": 1862822,
+      "serviceTypeCode": "PL",
+      "classStatusCode": "Booked",
+      "dataStore": "us1",
+      "startTime": "2017-11-03T09:00:00Z",
+      "endTime": "2017-11-03T10:00:00Z"
+    },
+    {
+      "classId": 1862823,
+      "serviceTypeCode": "EFTV",
+      "classStatusCode": "Booked",
+      "dataStore": "us1",
+      "startTime": "2017-11-02T15:00:00Z",
+      "endTime": "2017-11-02T16:00:00Z"
+    },
+    {
+      "classId": 1862824,
+      "serviceTypeCode": "GL",
+      "classStatusCode": "Finished",
+      "dataStore": "us1",
+      "startTime": "2017-11-01T19:00:00Z",
+      "endTime": "2017-11-01T20:00:00Z"
+    },
+    {
+      "classId": 1862825,
+      "serviceTypeCode": "GL",
+      "classStatusCode": "Assigned",
+      "dataStore": "us1",
+      "startTime": "2017-11-04T01:00:00Z",
+      "endTime": "2017-11-04T02:00:00Z"
+    },
+    {
+      "classId": 1862826,
+      "serviceTypeCode": "GL",
+      "classStatusCode": "Assigned",
+      "dataStore": "us1",
+      "startTime": "2017-11-04T09:00:00Z",
+      "endTime": "2017-11-04T10:00:00Z"
+    },
+    {
+      "classId": 1862827,
+      "serviceTypeCode": "GL",
+      "classStatusCode": "Assigned",
+      "dataStore": "us1",
+      "startTime": "2017-11-04T09:00:00Z",
+      "endTime": "2017-11-04T10:00:00Z"
+    },
+    {
+      "classId": 1862828,
+      "serviceTypeCode": "GL",
+      "classStatusCode": "Assigned",
+      "dataStore": "us1",
+      "startTime": "2017-11-10T09:00:00Z",
+      "endTime": "2017-11-10T10:00:00Z"
+    },
+    {
+      "classId": 1862829,
+      "serviceTypeCode": "GL",
+      "classStatusCode": "Assigned",
+      "dataStore": "us1",
+      "startTime": "2017-11-04T09:00:00Z",
+      "endTime": "2017-11-04T10:00:00Z"
+    },
+    {
+      "classId": 1862830,
+      "serviceTypeCode": "GL",
+      "classStatusCode": "Assigned",
+      "dataStore": "us1",
+      "startTime": "2017-11-04T09:00:00Z",
+      "endTime": "2017-11-04T10:00:00Z"
+    },
+    {
+      "classId": 1862831,
+      "serviceTypeCode": "GL",
+      "classStatusCode": "Assigned",
+      "dataStore": "us1",
+      "startTime": "2017-11-05T06:00:00Z",
+      "endTime": "2017-11-05T07:00:00Z"
+    },
+    {
+      "classId": 1862832,
+      "serviceTypeCode": "GL",
+      "classStatusCode": "Assigned",
+      "dataStore": "us1",
+      "startTime": "2017-11-04T09:00:00Z",
+      "endTime": "2017-11-04T10:00:00Z"
+    },
+    {
+      "classId": 1862833,
+      "serviceTypeCode": "GL",
+      "classStatusCode": "Assigned",
+      "dataStore": "us1",
+      "startTime": "2017-11-04T11:00:00Z",
+      "endTime": "2017-11-04T12:00:00Z"
+    },
+    {
+      "classId": 1862834,
+      "serviceTypeCode": "PL",
+      "classStatusCode": "Booked",
+      "dataStore": "us1",
+      "startTime": "2017-11-03T09:00:00Z",
+      "endTime": "2017-11-03T10:00:00Z"
+    },
+    {
+      "classId": 1862835,
+      "serviceTypeCode": "EFTV",
+      "classStatusCode": "Booked",
+      "dataStore": "us1",
+      "startTime": "2017-11-02T15:00:00Z",
+      "endTime": "2017-11-02T16:00:00Z"
+    },
+    {
+      "classId": 1862836,
+      "serviceTypeCode": "GL",
+      "classStatusCode": "Finished",
+      "dataStore": "us1",
+      "startTime": "2017-11-01T19:00:00Z",
+      "endTime": "2017-11-01T20:00:00Z"
+    },
+    {
+      "classId": 1862837,
+      "serviceTypeCode": "GL",
+      "classStatusCode": "Assigned",
+      "dataStore": "us1",
+      "startTime": "2017-11-04T01:00:00Z",
+      "endTime": "2017-11-04T02:00:00Z"
+    },
+    {
+      "classId": 1862838,
+      "serviceTypeCode": "GL",
+      "classStatusCode": "Assigned",
+      "dataStore": "us1",
+      "startTime": "2017-11-04T09:00:00Z",
+      "endTime": "2017-11-04T10:00:00Z"
+    },
+    {
+      "classId": 1862839,
+      "serviceTypeCode": "GL",
+      "classStatusCode": "Assigned",
+      "dataStore": "us1",
+      "startTime": "2017-11-04T09:00:00Z",
+      "endTime": "2017-11-04T10:00:00Z"
+    },
+    {
+      "classId": 1862840,
+      "serviceTypeCode": "GL",
+      "classStatusCode": "Assigned",
+      "dataStore": "us1",
+      "startTime": "2017-11-10T09:00:00Z",
+      "endTime": "2017-11-10T10:00:00Z"
+    },
+    {
+      "classId": 1862841,
+      "serviceTypeCode": "GL",
+      "classStatusCode": "Assigned",
+      "dataStore": "us1",
+      "startTime": "2017-11-04T09:00:00Z",
+      "endTime": "2017-11-04T10:00:00Z"
+    },
+    {
+      "classId": 1862842,
+      "serviceTypeCode": "GL",
+      "classStatusCode": "Assigned",
+      "dataStore": "us1",
+      "startTime": "2017-11-04T09:00:00Z",
+      "endTime": "2017-11-04T10:00:00Z"
+    },
+    {
+      "classId": 1862843,
+      "serviceTypeCode": "GL",
+      "classStatusCode": "Assigned",
+      "dataStore": "us1",
+      "startTime": "2017-11-05T06:00:00Z",
+      "endTime": "2017-11-05T07:00:00Z"
+    },
+    {
+      "classId": 1862844,
+      "serviceTypeCode": "GL",
+      "classStatusCode": "Assigned",
+      "dataStore": "us1",
+      "startTime": "2017-11-04T09:00:00Z",
+      "endTime": "2017-11-04T10:00:00Z"
+    }
+  ]
+}
