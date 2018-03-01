@@ -1,15 +1,18 @@
-import {Navigation, ScreenVisibilityListener} from 'react-native-navigation';
+import {
+	Navigation,
+	ScreenVisibilityListener
+} from 'react-native-navigation';
 
-import T1 from '../components/t1';
-import T2 from '../components/t2';
-import T3 from '../components/t3';
-import Menu from '../components/menu';
+import WelcomeScreen from '../screens/welcome/main';
+import MenuScreen from '../screens/menu/main';
+import NotificationScreen from '../screens/notification/main';
 
+// register all screens and listen all events;
 
 export function registerScreens() {
-	Navigation.registerComponent('example.T1', () => T1);
-	Navigation.registerComponent('example.T2', () => T2);
-	Navigation.registerComponent('example.T3', () => T3);
+	Navigation.registerComponent('Axis.Welcome', () => WelcomeScreen);
+	Navigation.registerComponent('Axis.Menu', () => MenuScreen);
+	Navigation.registerComponent('Axis.LightBox.Notification', () => NotificationScreen);
 }
 
 export function registerScreenVisibilityListener() {
