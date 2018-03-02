@@ -24,7 +24,6 @@ export default class WelcomeScreen extends Component {
 	}
 
 	componentDidMount(){
-		SplashScreen.show();
 		setTimeout(()=>{
 			this.showNotificationsLightBox()
 		}, 2000);
@@ -51,7 +50,7 @@ export default class WelcomeScreen extends Component {
 		this.setState({
 			isClosedNotification: true
 		});
-		SplashScreen.hide();
+		//SplashScreen.hide();
 		this.jumpToLogin();
 	}
 

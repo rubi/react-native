@@ -6,6 +6,9 @@ import {
 import WelcomeScreen from '../screens/welcome/main';
 import MenuScreen from '../screens/menu/main';
 import LoginScreen from '../screens/login/main';
+import UpcomingClassScreen from '../screens/upcomingClass/main';
+import ScheduleScreen from '../screens/schedule/main';
+
 
 import NotificationScreen from '../screens/notification/main';
 
@@ -15,6 +18,9 @@ export function registerScreens() {
 	Navigation.registerComponent('Axis.Welcome', () => WelcomeScreen);
 	Navigation.registerComponent('Axis.Menu', () => MenuScreen);
 	Navigation.registerComponent('Axis.Login', () => LoginScreen);
+	Navigation.registerComponent('Axis.Menu.UpcomingClass', () => UpcomingClassScreen);
+	Navigation.registerComponent('Axis.Menu.Schedule', () => ScheduleScreen);
+
 
 	Navigation.registerComponent('Axis.LightBox.Notification', () => NotificationScreen);
 }
