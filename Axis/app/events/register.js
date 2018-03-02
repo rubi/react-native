@@ -5,6 +5,8 @@ import {
 
 import WelcomeScreen from '../screens/welcome/main';
 import MenuScreen from '../screens/menu/main';
+import LoginScreen from '../screens/login/main';
+
 import NotificationScreen from '../screens/notification/main';
 
 // register all screens and listen all events;
@@ -12,6 +14,8 @@ import NotificationScreen from '../screens/notification/main';
 export function registerScreens() {
 	Navigation.registerComponent('Axis.Welcome', () => WelcomeScreen);
 	Navigation.registerComponent('Axis.Menu', () => MenuScreen);
+	Navigation.registerComponent('Axis.Login', () => LoginScreen);
+
 	Navigation.registerComponent('Axis.LightBox.Notification', () => NotificationScreen);
 }
 

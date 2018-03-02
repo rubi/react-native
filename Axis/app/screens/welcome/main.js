@@ -52,6 +52,18 @@ export default class WelcomeScreen extends Component {
 			isClosedNotification: true
 		});
 		SplashScreen.hide();
+		this.jumpToLogin();
+	}
+
+	jumpToLogin(){
+		this.props.navigator.push({
+			screen: 'Axis.Login',
+			title: 'Login',
+			navigatorStyle: {
+				navBarHidden: true,
+				statusBarHidden: false
+			}
+		});
 	}
 
 	getTemplate(){

@@ -9,13 +9,15 @@ import {
 } from 'react-native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import { getDomain } from '../../config/domain';
+import { FormLabel, FormInput } from 'react-native-elements';
+
 import { styles } from './main.style';
 const {
 	width,
 	height
 } = Dimensions.get('window');
 
-export default class MenuScreen extends Component {
+export default class LoginScreen extends Component {
 
 	constructor(){
 		super();
@@ -25,10 +27,15 @@ export default class MenuScreen extends Component {
 
 	}
 
+	changeText(){
+
+	}
+
 	render() {
 		return (
 			<View style={styles.container}>
-				<Text>Login to axis.</Text>
+				<FormLabel>Name</FormLabel>
+				<FormInput onChangeText={this.changeText.bind(this)}/>
 			</View>
 		)
 	}
