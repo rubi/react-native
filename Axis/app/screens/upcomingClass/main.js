@@ -1,30 +1,39 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {
-	Platform,
+	View,
 	StyleSheet,
 	Text,
-	View,
-	Dimensions,
-	FlatList
+	TouchableOpacity,
+	Button
 } from 'react-native';
-import Ionicons from 'react-native-vector-icons/Ionicons';
-import { getDomain } from '../../config/domain';
-import { FormLabel, FormInput } from 'react-native-elements';
-
+import {Navigation} from 'react-native-navigation';
 import { styles } from './main.style';
-const {
-	width,
-	height
-} = Dimensions.get('window');
 
-export default class UpcomingClassScreen extends Component {
+let navigator;
+export default class UpcomingClassScreen extends React.Component {
 
-	constructor(){
-		super();
+	constructor(props){
+		super(props)
+		this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent.bind(this));
 	}
 
-	componentDidMount(){
+	toggleDrawer(){
+		this.props.navigator.toggleDrawer({
+			side: 'left',
+			animated: true
+		});
+	}
 
+	onNavigatorEvent(event) {
+		if (event.type == 'DeepLink') {
+			if(event.link === 'toggleDrawEvent'){
+				this.toggleDrawer();
+			}
+		}
+	}
+
+	componentWillMount() {
+		navigator = this.props.navigator;
 	}
 
 	render() {
@@ -32,6 +41,10 @@ export default class UpcomingClassScreen extends Component {
 			<View style={styles.container}>
 				<Text>Upcoming Class</Text>
 			</View>
-		)
+		);
+	}
+
+	componentWillUnmount() {
+		navigator = null;
 	}
 }

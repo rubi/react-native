@@ -9,7 +9,10 @@ import LoginScreen from '../screens/login/main';
 import UpcomingClassScreen from '../screens/upcomingClass/main';
 import ScheduleScreen from '../screens/schedule/main';
 
+//button
+import NavigatorLeftButtonScreen from '../screens/common/buttons/navigatorLeftButton';
 
+//lightbox
 import NotificationScreen from '../screens/notification/main';
 
 // register all screens and listen all events;
@@ -21,6 +24,7 @@ export function registerScreens() {
 	Navigation.registerComponent('Axis.Menu.UpcomingClass', () => UpcomingClassScreen);
 	Navigation.registerComponent('Axis.Menu.Schedule', () => ScheduleScreen);
 
+	Navigation.registerComponent('Axis.Navigator.leftButton', () => NavigatorLeftButtonScreen);
 
 	Navigation.registerComponent('Axis.LightBox.Notification', () => NotificationScreen);
 }
