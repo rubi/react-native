@@ -8,9 +8,13 @@ import MenuScreen from '../screens/menu/main';
 import LoginScreen from '../screens/login/main';
 import UpcomingClassScreen from '../screens/upcomingClass/main';
 import ScheduleScreen from '../screens/schedule/main';
+import ClassDetailScreen from '../screens/classDetail/main';
 
 //button
-import NavigatorLeftButtonScreen from '../screens/common/buttons/navigatorLeftButton';
+import NavBarLeftButtonScreen from '../screens/common/buttons/backDrawer';
+import NavBarUpdateButtonScreen from '../screens/common/buttons/updateScreen';
+import NavBarLegendButtonScreen from '../screens/upcomingClass/navBar/rightButton/legendTip';
+import NavBarCreateButtonScreen from '../screens/upcomingClass/navBar/rightButton/createClass';
 
 //lightbox
 import NotificationScreen from '../screens/notification/main';
@@ -23,8 +27,12 @@ export function registerScreens() {
 	Navigation.registerComponent('Axis.Login', () => LoginScreen);
 	Navigation.registerComponent('Axis.Menu.UpcomingClass', () => UpcomingClassScreen);
 	Navigation.registerComponent('Axis.Menu.Schedule', () => ScheduleScreen);
+	Navigation.registerComponent('Axis.Class.Detail', () => ClassDetailScreen);
 
-	Navigation.registerComponent('Axis.Navigator.leftButton', () => NavigatorLeftButtonScreen);
+	Navigation.registerComponent('Axis.NavBar.Common.BackDrawer', () => NavBarLeftButtonScreen);
+	Navigation.registerComponent('Axis.NavBar.Common.UpdateButton', () => NavBarUpdateButtonScreen);
+	Navigation.registerComponent('Axis.NavBar.UpcomingClass.LegendButton', () => NavBarLegendButtonScreen);
+	Navigation.registerComponent('Axis.NavBar.UpcomingClass.CreateButton', () => NavBarCreateButtonScreen);
 
 	Navigation.registerComponent('Axis.LightBox.Notification', () => NotificationScreen);
 }

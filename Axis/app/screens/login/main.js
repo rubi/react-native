@@ -56,7 +56,7 @@ export default class LoginScreen extends Component {
 				</View>
 				<View style={{width: width,padding: 20}}>
 					<Button
-						buttonStyle={{height: 40}}
+						buttonStyle={{height: 40, backgroundColor: '#5a66d1'}}
 						title='Sign In'
 						onPress={this.jumpToHome.bind(this)}/>
 				</View>

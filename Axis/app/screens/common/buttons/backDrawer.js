@@ -12,14 +12,14 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 import { getDomain } from '../../../config/domain';
 
 import {Navigation} from 'react-native-navigation';
-import { styles } from './navigatorLeftButton.style';
+import { styles } from './backDrawer.style';
 
 const {
 	width,
 	height
 } = Dimensions.get('window');
 
-export default class NavigatorLeftButtonScreen extends Component {
+export default class NavBarLeftButtonScreen extends Component {
 
 	constructor(props){
 		super(props);

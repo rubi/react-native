@@ -3,13 +3,13 @@ import {
 	View,
 	StyleSheet,
 	Text,
-	TouchableOpacity,
-	Button
+	TouchableOpacity
 } from 'react-native';
 import {Navigation} from 'react-native-navigation';
 import { styles } from './main.style';
+import { Button } from 'react-native-elements';
+import FontAwesomeIcons from 'react-native-vector-icons/FontAwesome';
 
-let navigator;
 export default class UpcomingClassScreen extends React.Component {
 
 	constructor(props){
@@ -33,18 +33,31 @@ export default class UpcomingClassScreen extends React.Component {
 	}
 
 	componentWillMount() {
-		navigator = this.props.navigator;
+
+	}
+
+	componentWillUnmount() {
+
+	}
+
+	jumpToClassDetail(){
+		this.props.navigator.push({
+			screen: "Axis.Class.Detail",
+			title: "Class Detail"
+		});
 	}
 
 	render() {
 		return (
 			<View style={styles.container}>
-				<Text>Upcoming Class</Text>
+				<Button
+					buttonStyle={{height: 40,backgroundColor: "#000000"}}
+					title="I am PL"
+					onPress={this.jumpToClassDetail.bind(this)}
+				/>
 			</View>
 		);
 	}
 
-	componentWillUnmount() {
-		navigator = null;
-	}
+
 }

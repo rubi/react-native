@@ -20,13 +20,21 @@ const tabs = [
 			right: 0
 		},
 		navigatorStyle: {
-			navBarTextFontSize: 15
+			navBarTextFontSize: 18
 		},
 		navigatorButtons: {
 			leftButtons: [
 				{
 					id: 'sideMenu',
-					component: 'Axis.Navigator.leftButton',
+					component: 'Axis.NavBar.Common.BackDrawer',
+					passProps: {},
+					buttonColor: '#000000'
+				}
+			],
+			rightButtons: [
+				{
+					id: 'updateButton',
+					component: 'Axis.NavBar.Common.UpdateButton',
 					passProps: {},
 					buttonColor: '#000000'
 				}
@@ -45,13 +53,33 @@ const tabs = [
 			right: 0
 		},
 		navigatorStyle: {
-			navBarTextFontSize: 15
+			navBarTextFontSize: 18
 		},
 		navigatorButtons: {
 			leftButtons: [
 				{
 					id: 'sideMenu',
-					component: 'Axis.Navigator.leftButton',
+					component: 'Axis.NavBar.Common.BackDrawer',
+					passProps: {},
+					buttonColor: '#000000'
+				}
+			],
+			rightButtons: [
+				{
+					id: 'createButton',
+					component: 'Axis.NavBar.UpcomingClass.CreateButton',
+					passProps: {},
+					buttonColor: '#000000'
+				},
+				{
+					id: 'legendButton',
+					component: 'Axis.NavBar.UpcomingClass.LegendButton',
+					passProps: {},
+					buttonColor: '#000000'
+				},
+				{
+					id: 'updateButton',
+					component: 'Axis.NavBar.Common.UpdateButton',
 					passProps: {},
 					buttonColor: '#000000'
 				}
