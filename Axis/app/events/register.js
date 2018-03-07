@@ -2,6 +2,7 @@ import {
 	Navigation,
 	ScreenVisibilityListener
 } from 'react-native-navigation';
+import { Provider } from 'mobx-react';
 
 import WelcomeScreen from '../screens/welcome/main';
 import MenuScreen from '../screens/menu/main';
@@ -21,13 +22,14 @@ import NotificationScreen from '../screens/notification/main';
 
 // register all screens and listen all events;
 
-export function registerScreens() {
+export function registerScreens(stores: {}, provider: {}) {
+	debugger;
 	Navigation.registerComponent('Axis.Welcome', () => WelcomeScreen);
 	Navigation.registerComponent('Axis.Menu', () => MenuScreen);
 	Navigation.registerComponent('Axis.Login', () => LoginScreen);
 	Navigation.registerComponent('Axis.Menu.UpcomingClass', () => UpcomingClassScreen);
 	Navigation.registerComponent('Axis.Menu.Schedule', () => ScheduleScreen);
-	Navigation.registerComponent('Axis.Class.Detail', () => ClassDetailScreen);
+	Navigation.registerComponent('Axis.Class.Detail', () => ClassDetailScreen, stores, provider);
 
 	Navigation.registerComponent('Axis.NavBar.Common.BackDrawer', () => NavBarLeftButtonScreen);
 	Navigation.registerComponent('Axis.NavBar.Common.UpdateButton', () => NavBarUpdateButtonScreen);

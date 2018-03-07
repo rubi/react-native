@@ -1,36 +1,25 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import {
-	Platform,
+	View,
 	StyleSheet,
 	Text,
-	View,
-	Dimensions,
-	FlatList
+	TouchableOpacity
 } from 'react-native';
-import Ionicons from 'react-native-vector-icons/Ionicons';
-import { getDomain } from '../../config/domain';
-import { FormLabel, FormInput } from 'react-native-elements';
 
-import { styles } from './main.style';
-const {
-	width,
-	height
-} = Dimensions.get('window');
+import { observer, inject } from 'mobx-react';
 
-export default class ClassDetailScreen extends Component {
-
-	constructor(){
-		super();
-	}
-
-	componentDidMount(){
-
+@inject('classDetailStore')
+@observer
+export default class ClassDetailScreen extends Component  {
+	constructor(props){
+		super(props);
 	}
 
 	render() {
+		const { classDetailStore } = this.props;
 		return (
-			<View style={styles.container}>
-				<Text>Class Detail</Text>
+			<View>
+				{classDetailStore.todos.map((todo, index) => <Text key={index}>{todo.title}</Text>)}
 			</View>
 		)
 	}

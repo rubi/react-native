@@ -42,8 +42,8 @@ export default class UpcomingClassScreen extends React.Component {
 
 	jumpToClassDetail(){
 		this.props.navigator.push({
-			screen: "Axis.Class.Detail",
-			title: "Class Detail"
+			screen: 'Axis.Class.Detail',
+			title: 'Class Detail'
 		});
 	}
 

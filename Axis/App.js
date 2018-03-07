@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Platform } from 'react-native';
 import { Navigation } from 'react-native-navigation';
+import Provider from './app/provider/rnnProvider';
+import Stores from './app/store/index';
 import {
     registerScreens,
     registerScreenVisibilityListener
@@ -88,7 +90,7 @@ const tabs = [
 	}
 ];
 function initAppConfig(){
-	registerScreens();
+	registerScreens(Stores, Provider);
 	registerScreenVisibilityListener();
 	const loginStatus = getLoginStatus();
 	initPostal();
