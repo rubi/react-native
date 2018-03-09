@@ -11,7 +11,6 @@ const stores = {
 };
 
 (async ()=>{
-	debugger;
 	await hydrate('Account', stores.accountStore);
 })();
 
