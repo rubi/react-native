@@ -146,6 +146,7 @@ dependencies {
     compile project(':react-native-vector-icons') //add react-native-vector-icons
     compile project(':react-native-splash-screen') //add react-native-splash
     compile project(':react-native-snackbar') //add react-native-snackbar
+    compile project(':realm') //add react-native-realm
 }
 
 // Run this once to be able to run the application with BUCK

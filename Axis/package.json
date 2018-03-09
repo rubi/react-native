@@ -20,7 +20,8 @@
     "react-native-snackbar": "^0.4.6",
     "react-native-splash-screen": "^3.0.6",
     "react-native-ultimate-listview": "^3.2.4",
-    "react-native-vector-icons": "^4.4.2"
+    "react-native-vector-icons": "^4.4.2",
+    "realm": "^2.2.14"
   },
   "devDependencies": {
     "babel-jest": "21.2.0",

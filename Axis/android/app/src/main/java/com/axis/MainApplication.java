@@ -13,6 +13,7 @@ import java.util.List;
 import com.oblador.vectoricons.VectorIconsPackage;
 import org.devio.rn.splashscreen.SplashScreenReactPackage;
 import com.azendoo.reactnativesnackbar.SnackbarPackage;
+import io.realm.react.RealmReactPackage;
 
 public class MainApplication extends NavigationApplication {
 
@@ -29,7 +30,8 @@ public class MainApplication extends NavigationApplication {
             // eg. new VectorIconsPackage()
             new VectorIconsPackage(),
             new SplashScreenReactPackage(),
-            new SnackbarPackage()
+            new SnackbarPackage(),
+            new RealmReactPackage()
     );
   }
 
