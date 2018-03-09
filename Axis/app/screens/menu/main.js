@@ -11,6 +11,8 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 import { getDomain } from '../../config/domain';
 import { styles } from './main.style';
 import { List, ListItem } from 'react-native-elements';
+import { Button } from 'react-native-elements';
+import { observer, inject } from 'mobx-react';
 
 const {
 	width,
@@ -29,7 +31,10 @@ const list = [
 		screen: 'Axis.Menu.Schedule',
 		tabIndex: 1
 	}
-]
+];
+
+@inject('accountStore')
+@observer
 export default class MenuScreen extends Component {
 
 	constructor(){
@@ -50,6 +55,18 @@ export default class MenuScreen extends Component {
 		});
 	}
 
+	submitLogout(){
+		const { accountStore } = this.props;
+		accountStore.logout().then(
+			(data)=>{
+
+			},
+			(data)=>{
+
+			}
+		);
+	}
+
 	render() {
 		return (
 			<View style={styles.container}>
@@ -65,6 +82,12 @@ export default class MenuScreen extends Component {
 						))
 					}
 				</List>
+				<View style={{marginTop: 100}}>
+					<Button
+						buttonStyle={{height: 40, backgroundColor: '#5a66d1'}}
+						title='Sign Out'
+						onPress={this.submitLogout.bind(this)}/>
+				</View>
 			</View>
 		)
 	}

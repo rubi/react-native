@@ -23,10 +23,9 @@ import NotificationScreen from '../screens/notification/main';
 // register all screens and listen all events;
 
 export function registerScreens(stores: {}, provider: {}) {
-	debugger;
 	Navigation.registerComponent('Axis.Welcome', () => WelcomeScreen);
-	Navigation.registerComponent('Axis.Menu', () => MenuScreen);
-	Navigation.registerComponent('Axis.Login', () => LoginScreen);
+	Navigation.registerComponent('Axis.Menu', () => MenuScreen, stores, provider);
+	Navigation.registerComponent('Axis.Login', () => LoginScreen, stores, provider);
 	Navigation.registerComponent('Axis.Menu.UpcomingClass', () => UpcomingClassScreen);
 	Navigation.registerComponent('Axis.Menu.Schedule', () => ScheduleScreen);
 	Navigation.registerComponent('Axis.Class.Detail', () => ClassDetailScreen, stores, provider);

@@ -19,7 +19,7 @@ export default class ClassDetailScreen extends Component  {
 		const { classDetailStore } = this.props;
 		return (
 			<View>
-				{classDetailStore.todos.map((todo, index) => <Text key={index}>{todo.title}</Text>)}
+				{classDetailStore.slots.map((slot, index) => <Text key={index}>{slot.title}</Text>)}
 			</View>
 		)
 	}

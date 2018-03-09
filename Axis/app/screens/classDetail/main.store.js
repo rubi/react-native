@@ -1,10 +1,9 @@
 import { observable, action } from 'mobx';
 
 class Store {
-	@observable todos = [{
-		title: 'I am PL',
-		done: false,
+	@observable slots = [{
+		title: 'I am PL'
 	}];
 };
 
-export default new Store;
+export default new Store();
