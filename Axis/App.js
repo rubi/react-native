@@ -97,7 +97,6 @@ export default class App{
 		let accountStore = Stores.accountStore;
 		autorun(
 			() => {
-				debugger;
 				this.startApp(accountStore.authorized);
 			}
 		);

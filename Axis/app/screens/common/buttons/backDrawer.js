@@ -30,7 +30,7 @@ export default class NavBarLeftButtonScreen extends Component {
 	}
 
 	jumpToDrawer(){
-		Navigation.handleDeepLink({link: 'toggleDrawEvent'});
+		Navigation.handleDeepLink({link: 'toggle/draw'});
 	}
 
 	render() {

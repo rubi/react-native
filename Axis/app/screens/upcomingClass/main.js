@@ -9,7 +9,11 @@ import {Navigation} from 'react-native-navigation';
 import { styles } from './main.style';
 import { Button } from 'react-native-elements';
 import FontAwesomeIcons from 'react-native-vector-icons/FontAwesome';
+import { observer, inject } from 'mobx-react';
+import NetworkHint from '../common/network/hint/main';
 
+@inject('netStore')
+@observer
 export default class UpcomingClassScreen extends React.Component {
 
 	constructor(props){
@@ -26,7 +30,7 @@ export default class UpcomingClassScreen extends React.Component {
 
 	onNavigatorEvent(event) {
 		if (event.type == 'DeepLink') {
-			if(event.link === 'toggleDrawEvent'){
+			if(event.link === 'toggle/draw'){
 				this.toggleDrawer();
 			}
 		}
@@ -48,16 +52,18 @@ export default class UpcomingClassScreen extends React.Component {
 	}
 
 	render() {
+		let { netStore } = this.props;
 		return (
 			<View style={styles.container}>
-				<Button
-					buttonStyle={{height: 40,backgroundColor: "#000000"}}
-					title="I am PL"
-					onPress={this.jumpToClassDetail.bind(this)}
-				/>
+				<NetworkHint net={netStore}></NetworkHint>
+				<View style={{flex: 1, justifyContent: 'center'}}>
+					<Button
+						buttonStyle={{backgroundColor: "#000000"}}
+						title="I am PL"
+						onPress={this.jumpToClassDetail.bind(this)}
+					/>
+				</View>
 			</View>
 		);
 	}
-
-
 }

@@ -10,6 +10,7 @@ import LoginScreen from '../screens/login/main';
 import UpcomingClassScreen from '../screens/upcomingClass/main';
 import ScheduleScreen from '../screens/schedule/main';
 import ClassDetailScreen from '../screens/classDetail/main';
+import NetworkScreen from '../screens/common/network/notification/main';
 
 //button
 import NavBarLeftButtonScreen from '../screens/common/buttons/backDrawer';
@@ -26,9 +27,10 @@ export function registerScreens(stores: {}, provider: {}) {
 	Navigation.registerComponent('Axis.Welcome', () => WelcomeScreen);
 	Navigation.registerComponent('Axis.Menu', () => MenuScreen, stores, provider);
 	Navigation.registerComponent('Axis.Login', () => LoginScreen, stores, provider);
-	Navigation.registerComponent('Axis.Menu.UpcomingClass', () => UpcomingClassScreen);
+	Navigation.registerComponent('Axis.Menu.UpcomingClass', () => UpcomingClassScreen, stores, provider);
 	Navigation.registerComponent('Axis.Menu.Schedule', () => ScheduleScreen);
 	Navigation.registerComponent('Axis.Class.Detail', () => ClassDetailScreen, stores, provider);
+	Navigation.registerComponent('Axis.Message.Network', () => NetworkScreen, stores, provider);
 
 	Navigation.registerComponent('Axis.NavBar.Common.BackDrawer', () => NavBarLeftButtonScreen);
 	Navigation.registerComponent('Axis.NavBar.Common.UpdateButton', () => NavBarUpdateButtonScreen);
