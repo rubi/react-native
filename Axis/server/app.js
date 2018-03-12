@@ -65,6 +65,13 @@ router.get('/notice', function(req, res) {
 	res.json(data);
 });
 
+router.get('/detail', function(req, res) {
+	var page = parseInt(req.query.page);
+	var pageNum = parseInt(req.query.pageNum);
+	var templateJson = JSON.parse(fs.readFileSync('json/detail.json', 'utf8'));
+	res.json(templateJson);
+});
+
 app.use('/api', router);
 app.set('port', process.env.PORT || 3000);
 
