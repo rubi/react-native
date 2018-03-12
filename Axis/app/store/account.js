@@ -5,27 +5,45 @@ const Realm = require('realm');
 const AccountSchema = {
 	name: 'Account',
 	properties: {
-		authorized: 'string',
-		account: 'string'
+		authorized: {
+			type: 'bool',
+			default: false
+		},
+		username: {
+			type: 'string',
+			default: ''
+		},
+		password: {
+			type: 'string',
+			default: ''
+		}
 	}
 };
 
-let AccountRealm = new Realm({schema: [AccountSchema]});
-debugger;
-let world = AccountRealm.write(() => {
-	AccountRealm.create('Account', {authorized:'123', account:'hello'});
-});
-
-
+const AccountRealm = new Realm({schema: [AccountSchema]});
 class Store {
 
 	@observable account = {username: null, password:null};
 	@observable authorized = false;
 
-	constructor({authorized, account}){
-		debugger;
-		this.authorized = authorized;
-		this.account = new Account(account);
+	constructor(){
+		let Accounts = AccountRealm.objects('Account');
+		if(!Accounts.length){
+			AccountRealm.write(() => {
+				AccountRealm.create('Account', {
+					authorized: false,
+					username: '',
+					password: ''
+				});
+			});
+		}else{
+			this.authorized = Accounts[0].authorized;
+			this.account = {
+				username: Accounts[0].username,
+				password: Accounts[0].password
+			};
+		}
+
 	}
 
 	@action
@@ -36,8 +54,9 @@ class Store {
 				this.account = { username, password };
 				AccountRealm.write(()=>{
 					const data = AccountRealm.objects('Account');
-					data.authorized = true;
-					data.account = Object.assign({}, this.account);
+					data[0].authorized = true;
+					data[0].username = username;
+					data[0].password = password;
 				});
 				resolve({ isSuccess: true });
 			} else {
@@ -53,12 +72,13 @@ class Store {
 			this.account = { username: null, password: null};
 			AccountRealm.write(()=>{
 				const data = AccountRealm.objects('Account');
-				data.authorized = false;
-				data.account = Object.assign({}, this.account);
+				data[0].authorized = false;
+				data[0].username = '';
+				data[0].password = '';
 			});
 			resolve();
 		});
 	}
 };
 
-export default new Store(AccountRealm.objects('Account'));
+export default new Store();
