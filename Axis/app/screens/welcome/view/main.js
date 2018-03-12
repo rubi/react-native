@@ -8,7 +8,6 @@ import {
 	FlatList
 } from 'react-native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-import { getDomain } from '../../config/domain';
 import { styles } from './main.style';
 import SplashScreen from 'react-native-splash-screen';
 

@@ -10,11 +10,11 @@ import { styles } from './main.style';
 import { Button } from 'react-native-elements';
 import FontAwesomeIcons from 'react-native-vector-icons/FontAwesome';
 import { observer, inject } from 'mobx-react';
-import NetworkHint from '../common/network/hint/main';
+import NetworkHint from '../../common/network/hint/main';
 
-@inject('netStore')
+
 @observer
-export default class UpcomingClassScreen extends React.Component {
+export default class UpcomingClassScreen extends NetworkHint {
 
 	constructor(props){
 		super(props)
@@ -52,10 +52,9 @@ export default class UpcomingClassScreen extends React.Component {
 	}
 
 	render() {
-		let { netStore } = this.props;
 		return (
 			<View style={styles.container}>
-				<NetworkHint net={netStore}></NetworkHint>
+				{super.render()}
 				<View style={{flex: 1, justifyContent: 'center'}}>
 					<Button
 						buttonStyle={{backgroundColor: "#000000"}}

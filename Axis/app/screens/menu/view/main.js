@@ -7,8 +7,6 @@ import {
 	Dimensions,
 	FlatList
 } from 'react-native';
-import Ionicons from 'react-native-vector-icons/Ionicons';
-import { getDomain } from '../../config/domain';
 import { styles } from './main.style';
 import { List, ListItem } from 'react-native-elements';
 import { Button } from 'react-native-elements';

@@ -16,6 +16,7 @@ const {
 	height
 } = Dimensions.get('window');
 
+@inject('netStore')
 @observer
 export default class NetworkHint extends Component {
 
@@ -28,8 +29,8 @@ export default class NetworkHint extends Component {
 	}
 
 	render() {
-		let { net } = this.props;
-		if(net.isConnected){
+		let { netStore } = this.props;
+		if(netStore.isConnected){
 			return null;
 		}else{
 			return (

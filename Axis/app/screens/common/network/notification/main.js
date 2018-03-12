@@ -17,7 +17,7 @@ const {
 	height
 } = Dimensions.get('window');
 
-export default class NetworkScreen extends Component {
+export default class NetworkNotificationScreen extends Component {
 
 	constructor(){
 		super();

@@ -7,9 +7,8 @@ import {
 	Dimensions,
 	FlatList
 } from 'react-native';
-import Ionicons from 'react-native-vector-icons/Ionicons';
-import { getDomain } from '../../config/domain';
-import { FormLabel, FormInput } from 'react-native-elements';
+import NetworkHint from '../../common/network/hint/main';
+import { observer } from 'mobx-react';
 
 import { styles } from './main.style';
 const {
@@ -17,10 +16,11 @@ const {
 	height
 } = Dimensions.get('window');
 
-export default class ScheduleScreen extends Component {
+@observer
+export default class ScheduleScreen extends NetworkHint {
 
-	constructor(){
-		super();
+	constructor(props){
+		super(props);
 	}
 
 	componentDidMount(){
@@ -30,6 +30,7 @@ export default class ScheduleScreen extends Component {
 	render() {
 		return (
 			<View style={styles.container}>
+				{super.render()}
 				<Text>Schedule</Text>
 			</View>
 		)

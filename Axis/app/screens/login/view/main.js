@@ -7,8 +7,6 @@ import {
 	Dimensions,
 	FlatList
 } from 'react-native';
-import Ionicons from 'react-native-vector-icons/Ionicons';
-import { getDomain } from '../../config/domain';
 import { observer, inject } from 'mobx-react';
 import Snackbar from 'react-native-snackbar';
 
@@ -18,10 +16,11 @@ const {
 	width,
 	height
 } = Dimensions.get('window');
+import NetworkHint from '../../common/network/hint/main';
 
 @inject('accountStore')
 @observer
-export default class LoginScreen extends Component {
+export default class LoginScreen extends NetworkHint {
 
 	constructor(props){
 		super(props);
@@ -62,6 +61,7 @@ export default class LoginScreen extends Component {
 		const { accountStore } = this.props;
 		return (
 			<View style={styles.container}>
+				{super.render()}
 				<View>
 					<FormLabel
 						labelStyle={{fontSize: 15}}
