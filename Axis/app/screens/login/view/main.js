@@ -44,13 +44,6 @@ export default class LoginScreen extends NetworkHint {
 				Snackbar.show({
 					title: 'username or password wrong',
 					duration: Snackbar.LENGTH_SHORT,
-					action: {
-						title: 'CANCEL',
-						color: '#000000',
-						onPress: () => {
-
-						},
-					},
 					backgroundColor: '#FF4500'
 				});
 			}

@@ -30,8 +30,8 @@ export default class NavBarUpdateButtonScreen extends Component {
 
 	}
 
-	jumpToDrawer(){
-		//Navigation.handleDeepLink({link: 'toggleDrawEvent'});
+	refreshScreen(){
+		Navigation.handleDeepLink({link: 'refresh/screen'});
 	}
 
 	render() {
@@ -39,7 +39,7 @@ export default class NavBarUpdateButtonScreen extends Component {
 			<View style={styles.container}>
 				<TouchableOpacity
 				 style={[styles.buttonContainer]}
-				 onPress={this.jumpToDrawer.bind(this)}
+				 onPress={this.refreshScreen.bind(this)}
 				 >
 					 <View style={styles.button}>
 					 	<IonicIcons name="md-refresh" size={30} color="#000000" />

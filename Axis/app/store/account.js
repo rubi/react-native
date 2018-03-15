@@ -16,6 +16,10 @@ const AccountSchema = {
 		password: {
 			type: 'string',
 			default: ''
+		},
+		isShowNotification: {
+			type: 'bool',
+			default: true
 		}
 	}
 };
@@ -25,6 +29,7 @@ class Store {
 
 	@observable account = {username: null, password:null};
 	@observable authorized = false;
+	@observable isShowNotification = true;
 
 	constructor(){
 		let Accounts = AccountRealm.objects('Account');
@@ -33,11 +38,13 @@ class Store {
 				AccountRealm.create('Account', {
 					authorized: false,
 					username: '',
-					password: ''
+					password: '',
+					isShowNotification: true
 				});
 			});
 		}else{
 			this.authorized = Accounts[0].authorized;
+			this.isShowNotification = Accounts[0].isShowNotification;
 			this.account = {
 				username: Accounts[0].username,
 				password: Accounts[0].password
@@ -75,8 +82,17 @@ class Store {
 				data[0].authorized = false;
 				data[0].username = '';
 				data[0].password = '';
+				data[0].isShowNotification = true;
 			});
 			resolve();
+		});
+	}
+
+	@action
+	setNotification = ()=>{
+		AccountRealm.write(()=>{
+			const data = AccountRealm.objects('Account');
+			data[0].isShowNotification = false;
 		});
 	}
 };

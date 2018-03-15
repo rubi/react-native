@@ -30,8 +30,8 @@ export default class NetworkNotificationScreen extends Component {
 	render() {
 		return (
 			<View style={styles.container}>
-				<Text style={styles.title}>In-App Notification</Text>
-				<Text style={styles.content}>You have 10 unread notifications!</Text>
+				<Text style={styles.title}>Request error:</Text>
+				<Text style={styles.content}>Web api have not provided yet.</Text>
 			</View>
 		)
 	}

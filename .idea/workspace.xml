@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a7761b5-5c61-4863-a74e-0b9ea88408bd" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Axis/android/app/app-release.apk" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Axis/android/app/build.gradle" afterPath="$PROJECT_DIR$/Axis/android/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Axis/android/app/seven.jks" afterPath="$PROJECT_DIR$/Axis/android/app/seven.jks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Axis/android/app/src/main/java/com/axis/MainActivity.java" afterPath="$PROJECT_DIR$/Axis/android/app/src/main/java/com/axis/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Axis/app/screens/upcomingClass/view/main.js" afterPath="$PROJECT_DIR$/Axis/app/screens/upcomingClass/view/main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -300,7 +297,7 @@
     <option name="totallyTimeSpent" value="39539000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="77" width="1395" height="740" extended-state="1" />
+    <frame x="45" y="77" width="1395" height="740" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29475984" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
