@@ -98,7 +98,6 @@ def enableProguardInReleaseBuilds = false
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.1"
-
     defaultConfig {
         applicationId "com.axis"
         minSdkVersion 16
@@ -117,10 +116,32 @@ android {
             include "armeabi-v7a", "x86"
         }
     }
+    /*signingConfigs{
+        releaseConfig{
+            storeFile file("seven.jks")
+            storePassword
+            if(System.console() != null)
+                System.console().readLine("\nKeystore password: ")
+            keyAlias "Axis"
+            keyPassword
+            if(System.console() != null)
+                System.console().readLine("\nKey password: ")
+        }
+    }*/
+    signingConfigs{
+        releaseConfig{
+            storeFile file("seven.jks")
+            storePassword "guozhiwei"
+            keyAlias "Axis"
+            keyPassword "19841111"
+
+        }
+    }
     buildTypes {
         release {
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+            signingConfig signingConfigs.releaseConfig
         }
     }
     // applicationVariants are e.g. debug, release

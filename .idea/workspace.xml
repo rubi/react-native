@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a7761b5-5c61-4863-a74e-0b9ea88408bd" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Axis/android/app/app-release.apk" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Axis/app/screens/login/view/main.js" afterPath="$PROJECT_DIR$/Axis/app/screens/login/view/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Axis/android/app/build.gradle" afterPath="$PROJECT_DIR$/Axis/android/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Axis/android/app/seven.jks" afterPath="$PROJECT_DIR$/Axis/android/app/seven.jks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Axis/android/app/src/main/java/com/axis/MainActivity.java" afterPath="$PROJECT_DIR$/Axis/android/app/src/main/java/com/axis/MainActivity.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -91,8 +94,8 @@
     <handled-path value="$PROJECT_DIR$/Axis/server/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="241" />
-    <option name="y" value="160" />
+    <option name="x" value="45" />
+    <option name="y" value="77" />
     <option name="width" value="1395" />
     <option name="height" value="740" />
   </component>
@@ -112,6 +115,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -184,7 +188,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -289,17 +292,18 @@
       <workItem from="1510297156621" duration="589000" />
       <workItem from="1510888491865" duration="4000" />
       <workItem from="1521019884161" duration="562000" />
+      <workItem from="1521085001007" duration="662000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38877000" />
+    <option name="totallyTimeSpent" value="39539000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="241" y="160" width="1395" height="740" extended-state="0" />
-    <editor active="false" />
+    <frame x="45" y="77" width="1395" height="740" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29475984" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29475984" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
