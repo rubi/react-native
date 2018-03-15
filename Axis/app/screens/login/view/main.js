@@ -62,23 +62,25 @@ export default class LoginScreen extends NetworkHint {
 		return (
 			<View style={styles.container}>
 				{super.render()}
-				<View>
-					<FormLabel
-						labelStyle={{fontSize: 15}}
-						fontFamily="bold">Username</FormLabel>
-					<FormInput onChangeText={(username) => this.setState({username})}/>
-				</View>
-				<View>
-					<FormLabel
-						labelStyle={{fontSize: 15}}
-						fontFamily="bold">Password</FormLabel>
-					<FormInput onChangeText={(password) => this.setState({password})}/>
-				</View>
-				<View style={{width: width,padding: 20}}>
-					<Button
-						buttonStyle={{height: 40, backgroundColor: '#5a66d1'}}
-						title='Sign In'
-						onPress={this.submitLogin.bind(this)}/>
+				<View style={{flex: 1, justifyContent: 'center'}}>
+					<View>
+						<FormLabel
+							labelStyle={{fontSize: 15}}
+							fontFamily="bold">Username</FormLabel>
+						<FormInput onChangeText={(username) => this.setState({username})}/>
+					</View>
+					<View>
+						<FormLabel
+							labelStyle={{fontSize: 15}}
+							fontFamily="bold">Password</FormLabel>
+						<FormInput onChangeText={(password) => this.setState({password})}/>
+					</View>
+					<View style={{width: width,padding: 20}}>
+						<Button
+							buttonStyle={{height: 40, backgroundColor: '#5a66d1'}}
+							title='Sign In'
+							onPress={this.submitLogin.bind(this)}/>
+					</View>
 				</View>
 			</View>
 		)
